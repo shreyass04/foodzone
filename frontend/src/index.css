@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Poppins', sans-serif;
+
+  /* every orange class becomes a vivid blue */
+  --color-orange-500: #2563eb;
+  --color-orange-600: #1d4ed8;
+  --color-orange-100: #dbeafe;
+  --color-orange-50: #eff6ff;
+
+  /* in case any green classes are still in your files */
+  --color-green-700: #2563eb;
+  --color-green-800: #1d4ed8;
+  --color-green-100: #dbeafe;
+}
+
+body {
+  background: linear-gradient(180deg, #eaf2ff 0%, #f5fbff 100%);
+  background-attachment: fixed;
+  color: #0f172a;
+}

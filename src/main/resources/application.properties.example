@@ -1,0 +1,11 @@
+spring.application.name=foodzone
+
+server.port=8081
+
+spring.datasource.url=jdbc:postgresql://localhost:5432/foodzone
+spring.datasource.username=postgres
+spring.datasource.password=YOUR_PASSWORD_HERE
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+app.jwt.secret=CHANGE_THIS_TO_A_LONG_RANDOM_SECRET
+app.jwt.expiration-ms=86400000
